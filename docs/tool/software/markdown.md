@@ -427,8 +427,8 @@ code-group语法中：
 
 | 语言                    | ID              | 别名                      |
 | ----------------------- | --------------- | ------------------------- |
-| Plain Text              | `txt`           |                           |
-| terminal outputs        | `ansi`          |                           |
+| Plain Text              | `text`          | `txt`、`plain`            |
+| 显示终端输出            | `ansi`          |                           |
 | Apache Conf             | `apache`        |                           |
 | Batch File              | `bat`           | `batch`                   |
 | C                       | `c`             |                           |

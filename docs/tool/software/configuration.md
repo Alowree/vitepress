@@ -6,7 +6,9 @@ order: 2
 
 ## 配置 Windows Terminal 的步骤
 
-前提：在微软商店下载两个软件：==Windows Terminal==、==PowerShell==、==oh-my-posh==
+::: tip
+前提：在微软商店下载两个软件：`Windows Terminal`、`PowerShell`、`oh-my-posh`
+:::
 
 - 查看配置文件位置
 
@@ -26,7 +28,7 @@ code $PROFILE
 oh-my-posh init pwsh --config 'C:/Users/zhang/AppData/Local/Programs/oh-my-posh/themes/material.omp.json' | Invoke-Expression
 ```
 
-- 如果出现错误，请在 powershell 管理员权限下运行命令
+- 如果出现错误，请在 powershell 管理员权限下运行以下命令
 
 ```powershell
 set-ExecutionPolicy RemoteSigned
@@ -78,7 +80,7 @@ npm install -g npm
 ### 配置全局 npm
 
 - 在 nodejs 安装路径下新建两个文件夹：`node_global` 和 `node_cache`
-- 并将路径加入到系统 path 中：`D:/software/nodejs/node_global`
+- 并将路径加入到系统 path 中 `D:/software/nodejs/node_global`
 
 ```shell
 npm config set prefix "D:/software/nodejs/node_global"
@@ -110,7 +112,7 @@ pnpm config set state-dir "D:/software/pnpm"
 ## sublime text 破解
 
 - 使用浏览器打开 [hexed.it](https://hexed.it/)
-- 点击“打开文件"，选择 sublime text 安装目录中的 "sublime_text.exe"
+- 点击“打开文件”，选择 sublime text 安装目录中的 "sublime_text.exe"
 - 在搜索框中输入 `807805000f94c1`，找到后，替换为 `c64005014885c9`
 - 点击“另存为”，保存文件到本地，文件名设定为 sublime_text.exe
 
@@ -214,26 +216,26 @@ git config --global http.sslVerify "false"
 - 选择 Developer，下一步（由于步骤很多，我没有提到的步骤可以直接下一步）
 - 接受条款，下一步
 - 在此界面先点击下方的全选，然后将不必要的组件去掉
-  - 去掉 _实例功能_ 中的 _机器学习服务和语言扩展_
-  - 去掉 _共享功能_ 中的 _机器学习服务器（独立）_
-  - 更改实例根目录：_D:\software\Microsoft SQL Server\Instance_
-  - 更改共享共嫩目录：_D:\software\Microsoft SQL Server\Share_
-  - 更改共享功能目录(x86)：_D:\software\Microsoft SQL Server\Share(X)_
+  - 去掉“实例功能”中的“机器学习服务和语言扩展”
+  - 去掉“共享功能”中的“机器学习服务器（独立）”
+  - 更改实例根目录：D:\software\Microsoft SQL Server\Instance
+  - 更改共享共嫩目录：D:\software\Microsoft SQL Server\Share
+  - 更改共享功能目录(x86)：D:\software\Microsoft SQL Server\Share(X)
 - 这里如果你在开始配置了或者本来就有 jdk，请选择自己的 jdk 目录，没有请默认不改，然后下一步
 - 选择混合模式，点击添加当前用户，在账户中输入密码，然后下一步
-  - 密码：_123456_
+  - 密码：123456
 - 添加当前用户，下一步
 - 添加当前用户，下一步
-- 控制器随便起个名，下一步：_HY_
+- 控制器随便起个名，下一步：HY
 - 安装、等待安装、安装完成后小窗点击确定，然后点击关闭（安装完成）
 
 4. 安装 SSMS-Setup-CHS.exe
 
 - 右键管理员运行此文件
 - 可以自定义位置也可默认，然后安装
-  - 安装路径：_D:\software\Microsoft SQL Server Management Studio 18_
+  - 安装路径：D:\software\Microsoft SQL Server Management Studio 18
 - 等待安装完成 ，会提示重启，重启就好，Sql Server 2019 安装完成！
-- 运行软件：_Microsoft SQL Server Management Studio18_
+- 运行软件：Microsoft SQL Server Management Studio18
 
 ## Windows 配置 wsl2 和 Ubuntu
 

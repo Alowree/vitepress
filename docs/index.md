@@ -13,7 +13,7 @@ hero:
       text: Java
       link: /java/java/
     - theme: alt
-      text: 前端
+      text: JavaScript
       link: /frontend/javascript/
     - theme: alt
       text: C++
@@ -21,10 +21,21 @@ hero:
     - theme: alt
       text: Python
       link: /python/python/
-    - theme: alt
-      text: 服务器
-      link: /server/linux/
-    - theme: alt
-      text: 工具箱
-      link: /tool/software/
+features:
+  - icon: 🛢️
+    title: MySQL
+    details: SQL 基础语法和 MySQL 数据库的使用细节。
+    link: /database/mysql/
+  - icon: 💨
+    title: Linux
+    details: Linux 基础语法和服务器相关的使用细节。
+    link: /server/linux/
+  - icon: 🛠️
+    title: 构建工具
+    details: 各种工具软件或者轮子的语法和使用细节。
+    link: /tool/build-tools/
+  - icon: 💡
+    title: 软件工具
+    details: 包括各类软件的快捷键、插件汇总、软件配置、装机必备等。
+    link: /tool/software/
 ---
