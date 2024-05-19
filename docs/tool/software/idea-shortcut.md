@@ -1,7 +1,7 @@
 ---
-title: idea 快捷键
+title: IDEA 快捷键
 date: 2024-05-15 23:47:43
-order: 7
+order: 5
 ---
 
 ## 基本编辑

@@ -1,5 +1,5 @@
 <script setup>
-import { usePrevNext } from "vitepress/dist/client/theme-default/composables/prev-next.js";
+import { usePrevNext } from "vitepress/dist/client/theme-default/composables/prev-next";
 const control = usePrevNext();
 </script>
 

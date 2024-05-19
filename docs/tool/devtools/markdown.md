@@ -1,7 +1,7 @@
 ---
-title: markdown
+title: markdown 语法
 date: 2024-05-15 23:41:15
-order: 3
+order: 1
 ---
 
 ## h1-h6 标题
@@ -483,13 +483,13 @@ code-group语法中：
 |具有非共享选择状态的选项卡 |具有共享选择状态的选项卡 |
 |-- |--|
 |``` |``` |\
-|:::tabs |:::tabs key:ab |\
+|::: tabs |::: tabs key:ab |\
 |== tab a |== tab a |\
 |a content |a content |\
 |== tab b |== tab b |\
 |b content |b content |\
 |::: | :::|\
-|:::tabs |:::tabs key:ab |\
+|::: tabs |::: tabs key:ab |\
 |== tab a|== tab a|\
 |a content 2 |a content 2 |\
 |== tab b |== tab b |\

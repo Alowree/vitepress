@@ -22,13 +22,13 @@ order: 1
 | `<blockquote>`  | 块级引用元素 <Badge text="块级元素" />                                            |
 | `<body>`        | 文档主体元素                                                                      |
 | `<br>`          | 换行标签 <Badge text="闭合标签" type="info" />                                    |
-| `<button>`      | 可点击的按钮                                                                      |
+| `<button>`      | 按钮                                                                              |
 | `<canvas>`      | 通过 JavaScript 绘制图形                                                          |
-| `<caption>`     | 表格标题元素                                                                      |
-| `<center>`      | 居中文本元素 <Badge text="块级元素" /><Badge text="已弃用" type="danger" />       |
+| `<caption>`     | 表格标题                                                                          |
+| `<center>`      | 文本居中 <Badge text="块级元素" /><Badge text="已弃用" type="danger" />           |
 | `<cite>`        | 引用元素：表示引述的来源                                                          |
-| `<code>`        | 行内代码元素 <Badge text="行内元素" />                                            |
-| `<col>`         | 定义表格中的列 <Badge text="闭合标签" type="info" />                              |
+| `<code>`        | 代码 <Badge text="行内元素" />                                                    |
+| `<col>`         | 表格列 <Badge text="闭合标签" type="info" />                                      |
 | `<colgroup>`    | 表格列组                                                                          |
 | `<data>`        | 将一个指定内容和机器可读的翻译联系在一起 <Badge text="行内元素" />                |
 | `<datalist>`    | 数据列表元素                                                                      |
@@ -38,7 +38,7 @@ order: 1
 | `<dfn>`         | 定义元素 <Badge text="行内元素" />                                                |
 | `<dialog>`      | 对话框元素                                                                        |
 | `<dir>`         | 目录元素 <Badge text="已弃用" type="danger" />                                    |
-| `<div>`         | 内容划分元素                                                                      |
+| `<div>`         | 块级元素                                                                          |
 | `<dl>`          | 描述列表元素 <Badge text="块级元素" />                                            |
 | `<dt>`          | 术语定义元素                                                                      |
 | `<em>`          | 斜体 <Badge text="强调或重读" type="info" />                                      |
@@ -203,7 +203,7 @@ order: 1
 
 | 标签元素   | 说明                               |
 | ---------- | ---------------------------------- |
-| `<a>`      | 超链接                             |
+| `<a>`      | 超链接。href 属性指向所链接的 URL  |
 | `<img>`    | 图像                               |
 | `<canvas>` | 通过 JavaScript 绘制图形及图形动画 |
 | `<svg>`    | 定义 SVG 图形的容器                |

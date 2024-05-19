@@ -31,11 +31,11 @@ features:
     details: Linux 基础语法和服务器相关的使用细节。
     link: /server/linux/
   - icon: 🛠️
-    title: 构建工具
+    title: 开发工具
     details: 各种工具软件或者轮子的语法和使用细节。
-    link: /tool/build-tools/
+    link: /tool/devtools/
   - icon: 💡
-    title: 软件工具
+    title: 软件配置
     details: 包括各类软件的快捷键、插件汇总、软件配置、装机必备等。
     link: /tool/software/
 ---

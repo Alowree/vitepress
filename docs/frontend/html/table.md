@@ -15,7 +15,7 @@ order: 3
 
 ## table 元素
 
-:::tabs
+::: tabs
 == align
 align 属性：指定了包含在文档中的表格必须如何对齐。<Badge text="枚举属性" /><Badge text="已弃用" type="danger" />
 
@@ -99,7 +99,7 @@ align 属性：这个可枚举属性表明了 caption 相对于 table 应该如�
 
 ## thead 元素
 
-:::tabs
+::: tabs
 == align
 align 属性：指定每个单元格内容的水平对齐方式。<Badge text="已弃用" type="danger" />
 
