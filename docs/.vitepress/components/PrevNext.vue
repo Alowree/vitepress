@@ -4,10 +4,10 @@ const control = usePrevNext();
 </script>
 
 <template>
-  <a v-if="control.prev?.link" :href="control.prev.link.replace(/\.[^/.]+$/, '')" class="page-nav-prev">
+  <a v-if="control.prev?.link" :href="control.prev.link.replace(/\.md+$/, '')" class="page-nav-prev">
     <div v-html="control.prev.text" class="tooltip"></div>
   </a>
-  <a v-if="control.next?.link" :href="control.next.link.replace(/\.[^/.]+$/, '')" class="page-nav-next">
+  <a v-if="control.next?.link" :href="control.next.link.replace(/\.md+$/, '')" class="page-nav-next">
     <div v-html="control.next.text" class="tooltip"></div>
   </a>
 </template>

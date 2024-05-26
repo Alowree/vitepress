@@ -16,7 +16,7 @@ hero:
       text: JavaScript
       link: /frontend/javascript/
     - theme: alt
-      text: C++
+      text: CSS
       link: /c/c/
     - theme: alt
       text: Python
