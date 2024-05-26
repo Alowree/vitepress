@@ -24,6 +24,13 @@ export default {
   ],
   build: {
     chunkSizeWarningLimit: 1000,
+    // cssCodeSplit: false,
+    // css: {
+    //   extract: false,
+    // },
+  //   css: {
+  //     hmr: false,
+  //   },
   },
   ssr: {
     noExternal: ["element-plus"],

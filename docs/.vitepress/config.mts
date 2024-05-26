@@ -7,7 +7,7 @@ import vite from "./config/vite";
 import type { ThemeConfig } from "./types/ThemeConfig";
 import { setFrontmatter } from "./utils/setFrontmatter";
 const config = defineConfigWithTheme<ThemeConfig>({
-  title: "莫有感情的小妖怪",
+  title: "MaraPython",
   titleTemplate: false,
   description: "🎉 记录我的学习和编码：这是一个碎片化、结构化、体系化的个人知识库",
   themeConfig,

@@ -11,7 +11,7 @@ export default <ThemeConfig>{
   search,
   socialLinks,
   outline: [2, 4],
-  outlineTitle: "目录",
+  outlineTitle: "文章目录",
   darkModeSwitchLabel: "切换夜间模式",
   lightModeSwitchTitle: "切换到白天模式",
   darkModeSwitchTitle: "切换到夜间模式",

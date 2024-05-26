@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url("https://fonts.font.im/css?family=Source+Sans+Pro");
+
+:root {
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "Source Sans Pro",
+    "PingFang SC Regular", "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+:root {
+  --vp-font-family-mono: "Consolas", "JetBrains Mono", ui-monospace, "Menlo",
+    "Monaco", "Liberation Mono", "Courier New", "YouYuan", monospace;
+}
+
+:root {
+  --vp-code-font-size: 0.94rem;
+}

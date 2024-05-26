@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "SBGONG"
+  name: "MaraPython"
   text: "凌晨三点的修🐶"
   tagline: 莫等闲，白了少年头，空悲切
   image:
@@ -10,8 +10,8 @@ hero:
     alt: 莫有感情的小妖怪
   actions:
     - theme: brand
-      text: Java
-      link: /java/java/
+      text: Soundfreaq
+      link: /Soundfreaq/
     - theme: alt
       text: JavaScript
       link: /frontend/javascript/
@@ -23,9 +23,9 @@ hero:
       link: /python/python/
 features:
   - icon: 🛢️
-    title: MySQL
+    title: 亚马逊运营
     details: SQL 基础语法和 MySQL 数据库的使用细节。
-    link: /database/mysql/
+    link: /亚马逊运营/
   - icon: 💨
     title: Linux
     details: Linux 基础语法和服务器相关的使用细节。

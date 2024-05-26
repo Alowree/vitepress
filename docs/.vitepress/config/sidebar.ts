@@ -1,11 +1,8 @@
-import c from "./sidebar/c";
-import database from "./sidebar/database";
 import frontend from "./sidebar/frontend";
-import interview from "./sidebar/interview";
-import java from "./sidebar/java";
-import project from "./sidebar/project";
 import python from "./sidebar/python";
-import server from "./sidebar/server";
 import tool from "./sidebar/tool";
+import soundfreaq from "./sidebar/soundfreaq";
+import about from "./sidebar/about";
+import amazon from "./sidebar/amazon";
 
-export default [...c, ...java, ...frontend, ...python, ...database, ...server, ...project, ...interview, ...tool];
+export default [...frontend, ...python, ...tool, ...soundfreaq, ...about, ...amazon,];
