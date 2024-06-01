@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "MaraPython"
   text: "凌晨三点的修🐶"
-  tagline: 莫等闲，白了少年头，空悲切
+  tagline: CLEAR WRITING IS THE KEY TO CLEAR THINKING
   image:
     src: /images/index/ghost.png
     alt: 莫有感情的小妖怪
@@ -13,11 +13,11 @@ hero:
       text: Soundfreaq
       link: /Soundfreaq/
     - theme: alt
-      text: JavaScript
-      link: /frontend/javascript/
-    - theme: alt
       text: CSS
-      link: /c/c/
+      link: /frontend/02.css/
+    - theme: alt
+      text: JavaScript
+      link: /frontend/03.javascript/
     - theme: alt
       text: Python
       link: /python/python/

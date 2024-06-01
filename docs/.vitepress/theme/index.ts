@@ -8,7 +8,7 @@ import "./css/custom.css";
 import "./css/style.css";
 import enhanceApp from "./enhanceApp";
 import setup from "./setup";
-import PrevNext from "../components/PrevNext.vue"
+import PrevNext from "../components/PrevNext.vue";
 export default {
   extends: DefaultTheme,
   Layout: () => {

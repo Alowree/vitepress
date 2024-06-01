@@ -16,6 +16,11 @@
     height: 2.5rem;
     border-radius: 0.5rem;
     padding: 0 0.625rem 0 0.75rem;
+    border: 1px solid var(--vp-c-bg-alt);
+    transition: all 0.3s;
+  }
+  .DocSearch-Button:hover {
+    border: 1px solid var(--vp-c-indigo-1);
   }
 }
 
