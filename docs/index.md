@@ -3,11 +3,11 @@ layout: home
 
 hero:
   name: "MaraPython"
-  text: "凌晨三点的修🐶"
+  text: ""
   tagline: CLEAR WRITING IS THE KEY TO CLEAR THINKING
   image:
     src: /images/index/ghost.png
-    alt: 莫有感情的小妖怪
+    alt: Marketing Analytics with Marathon and Python
   actions:
     - theme: brand
       text: Soundfreaq
@@ -33,9 +33,9 @@ features:
   - icon: 🛠️
     title: 开发工具
     details: 各种工具软件或者轮子的语法和使用细节。
-    link: /tool/devtools/
+    link: /tool/01.PowerShell/
   - icon: 💡
     title: 软件配置
     details: 包括各类软件的快捷键、插件汇总、软件配置、装机必备等。
-    link: /tool/software/
+    link: /tool/02.Vim/
 ---
